@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="../Css2/video.css">
+</head>
+<body>
+    <div class="container">
+        <video src="../video /vid1.mp4" class="slider" autoplay loop muted controls></video>
+        <ul>
+            
+            <li onclick="videoslider('../video /vid1.mp4')"><video src="../video /vid1.mp4"></video></li>
+            <li onclick="videoslider('../video /vid2.mp4')"><video src="../video /vid2.mp4"></video></li>
+            <li onclick="videoslider('../video /vid3.mp4')"><video src="../video /vid3.mp4"></video></li>
+            <li onclick="videoslider('../video /vid4.mp4')"><video src="../video /vid4.mp4"></video></li>
+            <li onclick="videoslider('../video /vid5.mp4')"><video src="../video /vid5.mp4"></video></li>
+             <li onclick="videoslider('../video /vid6.mp4')"><video src="../video /vid6.mp4"></video></li>
+            <li onclick="videoslider('../video /vid7.mp4')"><video src="../video /vid7.mp4"></video></li>
+            <li onclick="videoslider('../video /vid8.mp4')"><video src="../video /vid8.mp4"></video></li>
+             <li onclick="videoslider('../video /vid9.mp4')"><video src="../video /vid9.mp4"></video></li>
+              <li onclick="videoslider('../video /vid10.mp4')"><video src="../video /vid10.mp4"></video></li>
+            
+        </ul>
+    </div>
+    <div class="skills">
+                <button><a href="../video.html">Back</a></button>
+            </div>
+     <script>
+
+        function videoslider(links){
+            document.querySelector(".slider").src = links;
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    font-family: arial;
+}
+
+.topic{
+    text-align: center;
+}
+
+.topic img{
+    width: 200pt;
+    height: 200%;
+    border-radius: 12px;
+}
+
+.topic h2{
+   color: black;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-style: bold;
+}
+
+
+.button{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid black;
+	padding: 5px 20px;
+	color: blue;
+	transition: 0.6s ease;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
